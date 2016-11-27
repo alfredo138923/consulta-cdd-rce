@@ -19,6 +19,9 @@ Crear un virtualenv y activarlo:
 Instalar paquetes pip:
 > pip install -r requerimientos.txt
 
+Ejecutar script:
+> python cdd-resolver.py 100xxx06x4
+
 ------------
 ## Contacto
 
