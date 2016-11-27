@@ -1,10 +1,12 @@
 # -*- encoding: utf-8 -*-
+import sys
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from neural_models import NeuralModel
 from ocr_captcha import extraer_digitos, vaciar_temp_captcha, \
     get_captcha_desde_imagen
 
+__author__ = 'Alfredo Marcillo'
 
 def process_data(identificacion):
     vaciar_temp_captcha()
@@ -77,4 +79,9 @@ def process_data(identificacion):
 
 
 if __name__ == '__main__':
-    process_data('100200xxx0')
+    try:
+        cedula = sys.argv[1]
+    except IndexError as ex:
+        print('Debes especificar la cedula como argumento')
+    else:
+        process_data(cedula)
