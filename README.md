@@ -7,6 +7,11 @@ Para entrenar el modelo se usó alrededor de 200 images por cada digito.
 
 La precision del modelo es aproximadamente 94% por cada digito del captcha.
 
+### Pre requisitos:
+> Python2.7
+
+> OpenCV
+
 ### Instrucciones:
 Instalar opencv:
 > aptitude install python-opencv
