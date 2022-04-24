@@ -30,4 +30,4 @@ Ejecutar script:
 ------------
 ## Contacto
 
-E-mail: alfredo138923@openmailbox.org
+E-mail: alfredo138923@gmail.com
